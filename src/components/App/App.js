@@ -9,13 +9,13 @@ import Body from '../Body/Body';
 class App extends Component {
   render() {
     return (
-      <div className="App">
+      <form className="App">
         <Header />
         <About />
         <Contact />
         <Body />
         <Footer />
-      </div>
+      </form>
     );
   }
 }
